@@ -8,5 +8,5 @@ public class GlobalConfig : IGlobalConfig
     
     public DateTimeOffset Changed { get; set; }
     
-    public string Name { get; set; }
+    public string? Name { get; set; }
 }
